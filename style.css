@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* CSS and Images taken from: https://www.figma.com/file/4KIM14zOqqIKRuF8kBtHGs/Showcase-Website?node-id=1%3A2&t=3VzgqjOLjEMhWvnL-1 */
 
 html {
   box-sizing: border-box;
@@ -15,8 +16,16 @@ body {
 .wrapper{
   position: relative;
   width: 1440px;
-  min-height: 100vh;
+  height: 1379px;
   margin: auto;
+}
+
+.brand-img{
+  position: absolute;
+  width: 193px;
+  height: 47.64px;
+  left: 221px;
+  top: 50.25px;
 }
 
 .title {
@@ -41,4 +50,82 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
+}
+
+.app-store-btn {
+  position: absolute;
+  width: 138.44px;
+  height: 46.28px;
+  left: 221px;
+  top: 531px;
+}
+
+.app-store-btn img {
+  width: 138.44px;
+  height: 46.28px;
+}
+
+.google-play-btn{
+  position: absolute;
+  width: 156.19px;
+  height: 46.28px;
+  left: 381.81px;
+  top: 531px;
+}
+
+.google-play-btn img {
+  width: 156.19px;
+  height: 46.28px;
+}
+
+.main-image-container{
+  position: absolute;
+  width: 535.72px;
+  height: 309.27px;
+  left: 683.28px;
+  top: 229.73px;
+}
+
+.main-image-container img {
+  height: 411.15px;
+}
+
+.profile-img {
+  position: absolute;
+  height: 444px;
+  left: 737px;
+  right: 479px;
+  top: 686px;
+}
+
+.orders-img {
+  position: absolute;
+  height: 470px; /* increased from 444 to show full box shadow */
+  left: 479px;
+  right: 737px;
+  top: 913px;
+}
+
+.home-img {
+  position: absolute;
+  height: 470px; /* increased from 444 to show full box shadow */
+  left: 995px;
+  right: 221px;
+  top: 908px;
+}
+
+.cart-img {
+  position: absolute;
+  height: 222px; /* cut in half from the real image */
+  left: 221px;
+  right: 995px;
+  top: 1157px;
+}
+
+.product-img {
+  position: absolute;
+  height: 222px; /* cut in half from the real image */
+  left: 737px;
+  right: 479px;
+  top: 1157px;
 }
